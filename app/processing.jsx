@@ -66,7 +66,7 @@ export default function Processing() {
   const identifyCar = async (base64Image) => {
     try {
       const anthropic = new Anthropic({
-        apiKey: Constants.expoConfig.extra.claudeApiKey,
+        apiKey: '',
       });
 
       const message = await anthropic.messages.create({
