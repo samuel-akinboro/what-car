@@ -16,6 +16,24 @@ What car AI is a mobile application that uses artificial intelligence to instant
 - **Clean Interface**: Intuitive UI with real-time scanning animation
 - **Offline History**: Save your scanned cars for future reference
 
+## App Screens
+
+### Home Screen
+<img src="assets/screenshots/home.png" alt="Home Screen" width="300"/>
+ Home screen with a list of recent scans
+
+### Scanning Screen
+<img src="assets/screenshots/scan.png" alt="Scanning Screen" width="300"/>
+Real-time car scanning with animated interface
+
+### Details Screen
+<img src="assets/screenshots/details.png" alt="Car Details" width="300"/>
+Comprehensive car information and specifications
+
+### History Screen
+<img src="assets/screenshots/history.png" alt="History Screen" width="300"/>
+View all previously scanned cars
+
 ## 🎯 Perfect For
 
 - Car enthusiasts
@@ -23,9 +41,11 @@ What car AI is a mobile application that uses artificial intelligence to instant
 - Automotive professionals
 - Anyone curious about cars they see on the street
 
-## 🔮 Technology
-
-Built with React Native and Expo, What car AI leverages Anthropic's Claude AI for state-of-the-art computer vision and car identification capabilities. The app combines modern mobile development practices with cutting-edge AI to deliver a seamless car identification experience.
+## Tech Stack
+- React Native / Expo
+- Claude AI API
+- React Native Reanimated
+- TailwindCSS
 
 ## 📱 Platform Support
 
