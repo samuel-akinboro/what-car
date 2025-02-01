@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "What Car",
+    "slug": "what-car",
+    "scheme": "whatcar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#8B5CF6"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#8B5CF6"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow What Car Ai to access your camera",
+          "microphonePermission": "Allow What Car Ai to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "What Car Ai needs access to your photos to let you choose car images."
+        }
+      ]
+    ]
+  }
+}
